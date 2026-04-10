@@ -1,4 +1,4 @@
-# Pomodoro - Obsidian Glass Edition 🍅💎
+# Pomodoro
 
 Esta es una aplicación de productividad basada en la técnica Pomodoro, diseñada para ayudarte a enfocarte en tus tareas dividiendo el tiempo en intervalos de trabajo seguidos de descansos cortos.
 
