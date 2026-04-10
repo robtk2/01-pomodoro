@@ -1,12 +1,11 @@
 {
   "expo": {
-    "name": "01-pomodoro",
-    "slug": "01-pomodoro",
+    "name": "pomodoro",
+    "slug": "pomodoro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -16,6 +15,13 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.robk2.pomodoro",
+      "permissions": [
+        "NOTIFICATIONS",
+        "VIBRATE",
+        "WAKE_LOCK",
+        "SCHEDULE_EXACT_ALARM"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -24,6 +30,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff"
+        }
+      ],
+      "./modules/core-timer/app.plugin.js"
+    ]
   }
 }

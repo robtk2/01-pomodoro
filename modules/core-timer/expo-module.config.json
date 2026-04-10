@@ -1,0 +1,14 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["CoreTimerModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.coretimer.CoreTimerModule"],
+    "permissions": [
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "android.permission.POST_NOTIFICATIONS"
+    ]
+  }
+}

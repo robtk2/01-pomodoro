@@ -1,0 +1,19 @@
+{
+  "entryPoints": [
+    "src",
+    "modules/core-timer/index.ts"
+  ],
+  "entryPointStrategy": "expand",
+  "out": "docs/typedoc",
+  "name": "Pomodoro App - Technical Documentation",
+  "includeVersion": true,
+  "plugin": [],
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/node_modules/**"
+  ],
+  "hideGenerator": true,
+  "theme": "default",
+  "cleanOutputDir": true
+}
