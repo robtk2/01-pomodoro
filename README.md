@@ -5,8 +5,6 @@ Esta es una aplicación de productividad basada en la técnica Pomodoro, diseña
 > [!IMPORTANT]
 > **Compatibilidad:** Actualmente, esta aplicación está optimizada y probada **exclusivamente para Android**. Esto se debe al uso de módulos nativos personalizados en Kotlin y servicios de primer plano específicos de Android. No se garantiza el funcionamiento en iOS por el momento. Cualquier ayuda para adaptar y probar la aplicación en IOs será bienvenida.
 
-Una aplicación de productividad de alto rendimiento diseñada con una estética **Obsidian Glass** y construida sobre una **Arquitectura Hexagonal** robusta.
-
 [![Verification](https://github.com/robtk2/pomodoro/actions/workflows/verify.yml/badge.svg)](https://github.com/robtk2/pomodoro/actions/workflows/verify.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Coverage](https://img.shields.io/badge/coverage-99.68%25-brightgreen.svg)](#-calidad-y-testing)
